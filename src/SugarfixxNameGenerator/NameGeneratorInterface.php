@@ -1,7 +1,9 @@
 <?php
 
 
-class NameGeneratorInterface
+interface NameGeneratorInterface
 {
+    public function setConfig();
 
+    public function generate();
 }
